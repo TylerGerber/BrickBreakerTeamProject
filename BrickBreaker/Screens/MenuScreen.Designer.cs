@@ -31,6 +31,7 @@
             this.playButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
             this.title = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // playButton
@@ -44,7 +45,7 @@
             this.playButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.playButton.Font = new System.Drawing.Font("OCR A Std", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.playButton.ForeColor = System.Drawing.Color.Cyan;
-            this.playButton.Location = new System.Drawing.Point(207, 193);
+            this.playButton.Location = new System.Drawing.Point(306, 281);
             this.playButton.Name = "playButton";
             this.playButton.Size = new System.Drawing.Size(181, 78);
             this.playButton.TabIndex = 0;
@@ -61,7 +62,7 @@
             this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exitButton.Font = new System.Drawing.Font("OCR A Std", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exitButton.ForeColor = System.Drawing.Color.Cyan;
-            this.exitButton.Location = new System.Drawing.Point(207, 279);
+            this.exitButton.Location = new System.Drawing.Point(306, 365);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(181, 78);
             this.exitButton.TabIndex = 1;
@@ -83,6 +84,18 @@
             this.title.Text = "Brick Breaker";
             this.title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("OCR A Std", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Cyan;
+            this.label1.Location = new System.Drawing.Point(90, 89);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(653, 68);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Brick Breaker";
+            // 
             // MenuScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -90,6 +103,7 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BackgroundImage = global::BrickBreaker.Properties.Resources.Stars;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.playButton);
             this.DoubleBuffered = true;
@@ -105,5 +119,6 @@
         private System.Windows.Forms.Button playButton;
         private System.Windows.Forms.Button exitButton;
         private System.Windows.Forms.Label title;
+        private System.Windows.Forms.Label label1;
     }
 }

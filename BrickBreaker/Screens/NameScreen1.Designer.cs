@@ -1,4 +1,4 @@
-﻿namespace BrickBreaker.Screens
+﻿namespace BrickBreaker
 {
     partial class NameScreen1
     {

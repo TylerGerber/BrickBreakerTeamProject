@@ -1,4 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<level>
-  
+<level number="2" name="">
+  <brick x ="12" y ="409" hp ="1"/>
+  <brick x ="68" y ="409" hp ="1"/>
+  <brick x ="124" y ="409" hp ="1"/>
+  <brick x ="12" y ="409" hp ="1"/>
+  <brick x ="180" y ="409" hp ="1"/>
+  <brick x ="236" y ="409" hp ="1"/>
+
+  <brick x ="523" y ="409" hp ="1"/>
+  <brick x ="579" y ="409" hp ="1"/>
+  <brick x ="635" y ="409" hp ="1"/>
+  <brick x ="691" y ="409" hp ="1"/>
+  <brick x ="747" y ="409" hp ="1"/>
+
+  <brick x ="303" y ="286" hp ="2"/>
+  <brick x ="375" y ="286" hp ="2"/>
+  <brick x ="446" y ="286" hp ="2"/>
+
+  <brick x ="68" y ="286" hp ="3"/>
+  <brick x ="682" y ="286" hp ="3"/>
 </level>

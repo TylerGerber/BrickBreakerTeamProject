@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BrickBreaker.Screens
+namespace BrickBreaker
 {
     public partial class NameScreen1 : UserControl
     {

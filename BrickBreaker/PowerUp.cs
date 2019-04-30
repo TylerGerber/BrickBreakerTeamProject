@@ -25,7 +25,7 @@ namespace BrickBreaker
             powerValue = _powerValue;
         }
 
-        public void PaddleCollision(Paddle p)
+        public void PowerUpCollision(Paddle p)
         {
             Rectangle powerUpRec = new Rectangle(x, y, size, size);
             Rectangle paddleRec = new Rectangle(p.x, p.y, p.width, p.height);
@@ -50,10 +50,15 @@ namespace BrickBreaker
             }
         }
 
+        public Color UpdateColour()
+        {
+           return Color.Blue;
+        }
+
         //move the power up down the screen
         public void Move()
         {
-            y = y - powerSpeed;
+            y = y + powerSpeed;
         }
     }
 }

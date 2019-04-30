@@ -16,6 +16,7 @@ namespace BrickBreaker
         public int y; 
         public int hp;
         public Color colour;
+        public Rectangle rightRec, leftRec, topRec, bottomRec;
 
         public static Random rand = new Random();
 
@@ -24,7 +25,10 @@ namespace BrickBreaker
             x = _x;
             y = _y;
             hp = _hp;
-            
+            leftRec = new Rectangle(x, y, 1, height);
+            rightRec = new Rectangle(x + width, y, 1, height);
+            topRec = new Rectangle(x, y, width, 1);
+            bottomRec = new Rectangle(x, y + height, width, 1);
         }
         public Color UpdateColour()
         {
